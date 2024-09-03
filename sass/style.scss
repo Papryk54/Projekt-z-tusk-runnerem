@@ -1,0 +1,39 @@
+body {
+	margin: 0px;
+}
+main {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+h1 {
+	text-align: center;
+}
+
+.container {
+	width: 100%;
+	max-width: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu {
+	width: 100%;
+}
+
+.navbar ul {
+	list-style-type: none;
+	background-color: rgb(64, 64, 64);
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+.navbar a {
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+}
+.navbar a:hover {
+	background-color: rgb(26, 26, 26);
+}
