@@ -2,6 +2,7 @@
 
 body {
 	margin: 0px;
+	padding: 0px;
 }
 main {
 	margin-left: 20px;
@@ -11,18 +12,43 @@ h1 {
 	text-align: center;
 	font-size: 70px;
 	font-weight: bold;
+	font-family: "Roboto", system-ui;
+	font-weight: 700;
 }
 
 h2 {
 	text-align: center;
 	font-size: 50px;
 	font-weight: bold;
+	font-family: "Roboto", system-ui;
+	font-weight: 700;
 }
 
 h3 {
 	text-align: center;
 	font-size: 30px;
 	font-weight: normal;
+	font-family: "Roboto", system-ui;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 20px;
+	margin-bottom: 0;
+	font-family: "Roboto", system-ui;
+	font-weight: 700;
+}
+
+p {
+	color: rgb(32, 32, 32);
+	font-family: "Gruppo", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+a {
+	font-family: "Gruppo", sans-serif;
+	font-weight: 400;
 }
 
 //NAVIGATION
@@ -66,24 +92,17 @@ header {
 	height: 75vh;
 }
 
-header .curtain {
+.curtain{
+	height: 85vh;
+	width: 100vw;
+	background-color: #000;
 	position: absolute;
 	z-index: -1;
-	height: 80vh;
-	width: 125vw;
-	top: -100px;
-	left: -25vw;
-	background-color: #000;
 }
 
-header img {
-	position: absolute;
-	z-index: -1;
-	height: calc(80vh + 80px);
-	width: 155vw;
-	top: -80px;
-	left: -20vw;
-	background-color: #000;
+.curtain img {
+	height: 85vh;
+	width: 100vw;
 	opacity: 0.5;
 }
 
@@ -110,10 +129,83 @@ header img {
 	font-weight: bold;
 }
 
+//SERVICES
+
+.services .container {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.services i {
+	font-size: 60px;
+	color: rgb(197, 171, 24);
+}
+
+.services h4 {
+	color: rgb(197, 171, 24);
+}
+
+.services i {
+	border: 5px rgb(197, 171, 24) solid;
+	height: 80px;
+	width: 80px;
+	padding: 20px 15px 10px 15px;
+	border-radius: 80px;
+}
+
 //PORTFOLIO
+
+.portfolio {
+	background-color: #dfdfdf;
+}
+
+.portfolio h2 {
+	padding-top: 70px;
+	margin-bottom: 0;
+}
+
+.portfolio p {
+	margin-bottom: 70px;
+}
 
 .portfolio img {
 	height: 20vw;
 	width: 100%;
 	object-fit: cover;
+}
+
+.card {
+	background-color: rgb(248, 248, 248);
+}
+
+.card p {
+	margin-top: 0;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+}
+
+//FOOTER
+
+footer {
+	height: 90px;
+}
+
+footer button {
+	border-radius: 54px;
+	height: 54px;
+	width: 54px;
+	background-color: rgb(34, 34, 34);
+	text-align: center;
+	margin-top: 18px;
+	margin-right: 5px;
+}
+
+footer button a {
+	color: white;
+	font-size: 24px;
+	padding: 5px;
+}
+
+footer p {
+	padding-top: 40px;
 }
