@@ -89,10 +89,10 @@ section {
 
 header {
 	position: relative;
-	height: 75vh;
+	height: 85vh;
 }
 
-.curtain{
+.curtain {
 	height: 85vh;
 	width: 100vw;
 	background-color: #000;
@@ -190,17 +190,19 @@ footer {
 	height: 90px;
 }
 
-footer button {
-	border-radius: 54px;
+footer a {
+	display: inline-block;
+	line-height: 50px;
 	height: 54px;
 	width: 54px;
+	border-radius: 54px;
 	background-color: rgb(34, 34, 34);
 	text-align: center;
 	margin-top: 18px;
 	margin-right: 5px;
 }
 
-footer button a {
+footer a {
 	color: white;
 	font-size: 24px;
 	padding: 5px;
